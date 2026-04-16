@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local runtime output
+*.log
+
+# Large datasets and generated artifacts
+SDFVD/videos_fake/
+SDFVD/videos_real/
+SDFVD/artifacts/extracted_frames/
+SDFVD/artifacts/logs/
+SDFVD/artifacts/manifests/
+SDFVD/artifacts/outputs/
+
+# Optional: keep model checkpoints out of git (often very large)
+SDFVD/artifacts/checkpoints/
