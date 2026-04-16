@@ -6,7 +6,6 @@ Streamlit web application for forged video detection using a trained Faster R-CN
 
 - `SDFVD/webapp_streamlit.py` - Streamlit app
 - `SDFVD/requirements-webapp.txt` - web app dependencies
-- `SDFVD/WEBAPP_README.md` - detailed setup and deployment guide
 - `SDFVD/train_video_forgery_detection.ipynb` - training notebook
 - `SDFVD/artifacts/checkpoints/best_model.pt` - trained model checkpoint (required at runtime)
 
@@ -29,7 +28,11 @@ streamlit run webapp_streamlit.py
 
 ## Deployment
 
-Use the complete deployment instructions in `SDFVD/WEBAPP_README.md`.
+1. Push this repository to GitHub.
+2. Deploy with Streamlit Community Cloud or a VM/server.
+3. Install dependencies from `SDFVD/requirements-webapp.txt`.
+4. Start with `streamlit run SDFVD/webapp_streamlit.py`.
+5. Ensure `SDFVD/artifacts/checkpoints/best_model.pt` is available at runtime.
 
 ## Notes
 
